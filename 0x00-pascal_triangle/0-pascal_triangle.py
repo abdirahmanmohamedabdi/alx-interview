@@ -26,7 +26,7 @@ def pascal_triangle(n):
                 else:
                     cur_row.append(pascal_tri[i - 1][j - 1] +
                                    pascal_tri[i - 1][j])
-
-             pascal_tri.append(cur_row)
+                    
+            pascal_tri.append(cur_row)
            
- return (pascal_tri)
+    return (pascal_tri)
