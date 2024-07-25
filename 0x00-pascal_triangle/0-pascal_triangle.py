@@ -10,7 +10,7 @@ def pascal_triangle(n):
 
     if n <= 0:
         return []
-    
+
     for i in range(n):
         if (i == 0):
             pascal_tri.append([1])
@@ -24,5 +24,5 @@ def pascal_triangle(n):
                                    pascal_tri[i - 1][j])
 
             pascal_tri.append(cur_row)
-            
+           
     return (pascal_tri)
