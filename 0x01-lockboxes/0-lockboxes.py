@@ -15,5 +15,5 @@ def canUnlockAll(boxes):
                 unlocked[key] = key
         if len(unlocked) == len(boxes):
             return True
-        postion += 1
+        position += 1
     return False
