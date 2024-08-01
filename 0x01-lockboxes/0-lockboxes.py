@@ -9,7 +9,7 @@ def canUnlockAll(boxes):
 
     for box in boxes:
         if len(box) == 0 or position == 0:
-            unlocked[postion] = "always_uncloked"
+            unlocked[position] = "always_uncloked"
         for key in box:
             if key < len(boxes) and key != position:
                 unlocked[key] = key
