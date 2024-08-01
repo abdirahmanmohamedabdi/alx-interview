@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 """ Defines a function that determines if a box containing a list"""
-
-
-
 def canUnlockAll(boxes):
     """ Determines if boxes can be unlocked"""
     position = 0
