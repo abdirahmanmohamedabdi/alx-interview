@@ -10,7 +10,7 @@ def rotate_2d_matrix(matrix):
         return
     if not all(map(lambda x: type(x) == list, matrix)):
         return
-    tows = len(matrix)
+    rows = len(matrix)
     cols = len(matrix[0])
     if not all(map(lambda x: len(x) == cols, matrix)):
         return
