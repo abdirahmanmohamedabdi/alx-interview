@@ -1,11 +1,9 @@
 #!/usr/bin/python3
-"""Rotate 2D Matrix.
-"""
+"""Rotate 2D Matrix"""
 
 
 def rotate_2d_matrix(matrix):
-    """Rotates an m by n  2D Matrix.
-    """
+    """Rotates an m by n  2D Matrix"""
     if type(matrix) != list:
         return
     if len(matrix) <= 0:
