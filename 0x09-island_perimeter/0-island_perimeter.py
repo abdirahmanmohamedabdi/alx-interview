@@ -66,4 +66,3 @@ def island_perimeter(grid):
                     return 4
     perimeter = (len(bound_3) * 3) + (len(bound_2) * 2) + (len(bound_1))
     return perimeter
-    
