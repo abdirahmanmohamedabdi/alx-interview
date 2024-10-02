@@ -8,7 +8,7 @@ def primes(n):
     """
     Return a list of prime numbers up to n
     """
-    primes = []
+    prime = []
     sieve = [True] * (n + 1)
     for p in range(2, n + 1):
         if (sieve[p]):
