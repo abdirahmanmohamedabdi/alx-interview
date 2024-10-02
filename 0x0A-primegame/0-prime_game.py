@@ -22,7 +22,7 @@ def isWinner(x, nums):
     """
     Determine who the winner of the game is
     """
-    if x is None or Nums is None or x == 0 or nums == []:
+    if x is None or nums is None or x == 0 or nums == []:
         return None
     Maria = Ben = 0
     for i in range(x):
@@ -36,4 +36,3 @@ def isWinner(x, nums):
     elif Ben > Maria:
         return "Ben"
     return None
-    
